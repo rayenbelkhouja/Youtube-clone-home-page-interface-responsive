@@ -1,0 +1,88 @@
+.video-pic{
+    width: 100%;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.channel-pic{
+    width: 38px;
+    border-radius: 50%;
+    margin-right: 7px;
+    cursor: pointer;
+    
+}
+
+.video-pic-div{
+    position: relative;
+}
+
+.video-info-channel-pic-div{
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.video-title{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 11px;
+    line-height: 20px;
+
+}
+.channel-pic.div{
+    margin-right: 30px;
+    height: 70px;
+}
+
+.views,
+.channel-name{
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.youtube-videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 15px;
+}
+@media (max-width: 1000px){
+    .youtube-videos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px){
+    .youtube-videos{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 500px){
+    .youtube-videos{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+
+
+
+.video-time{
+    position:absolute;
+    bottom: 17px;
+    right: 4px;
+    background-color: black;
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 4px 4px 4px;
+    border-radius: 3px;
+
+}
+
